@@ -2,8 +2,8 @@ import boto3
 from datetime import datetime, timezone
 
 
-BUCKET_NAME = "s3-wirtz-cyber-practicas-diana"
-CUTOFF_DATE_STRING = "2025-12-02T18:32:55Z" 
+# BUCKET_NAME = SECRET! 
+# CUTOFF_DATE_STRING = SECRET!
 
 s3 = boto3.client("s3")
 
